@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>apple-stock-checker</Name>
+  <Repository>apple-stock-checker:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Project>https://www.apple.com/retail/</Project>
+  <Overview>Self-hosted Apple Retail Store stock and pickup availability monitor with area store counts, live catalog browser across all 7 Apple product families, restock duration history, and instant Pushover alerts.</Overview>
+  <Category>Tools:Utilities</Category>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://www.apple.com/favicon.ico</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config
+    Name="Web UI Port"
+    Target="8080"
+    Default="8080"
+    Mode="tcp"
+    Description="HTTP port for the LAN web dashboard and API"
+    Type="Port"
+    Display="always"
+    Required="true"
+    Mask="false">8080</Config>
+  <Config
+    Name="Appdata Storage"
+    Target="/data"
+    Default="/mnt/user/appdata/apple-stock-checker"
+    Mode="rw"
+    Description="Persistent SQLite database storage for watched items, cached catalogs, and restock history"
+    Type="Path"
+    Display="always"
+    Required="true"
+    Mask="false">/mnt/user/appdata/apple-stock-checker</Config>
+  <Config
+    Name="Pushover User Key"
+    Target="PUSHOVER_USER_KEY"
+    Default=""
+    Mode=""
+    Description="Your Pushover User Key"
+    Type="Variable"
+    Display="always"
+    Required="true"
+    Mask="true"/>
+  <Config
+    Name="Pushover API Token"
+    Target="PUSHOVER_API_TOKEN"
+    Default=""
+    Mode=""
+    Description="Your Pushover Application API Token"
+    Type="Variable"
+    Display="always"
+    Required="true"
+    Mask="true"/>
+  <Config
+    Name="Pushover Device (Optional)"
+    Target="PUSHOVER_DEVICE"
+    Default=""
+    Mode=""
+    Description="Optional specific Pushover device name (leave blank to notify all devices)"
+    Type="Variable"
+    Display="advanced"
+    Required="false"
+    Mask="false"/>
+  <Config
+    Name="Timezone"
+    Target="TZ"
+    Default="UTC"
+    Mode=""
+    Description="Container timezone (e.g., America/New_York, America/Chicago, Europe/London)"
+    Type="Variable"
+    Display="always"
+    Required="false"
+    Mask="false">UTC</Config>
+</Container>

@@ -1,0 +1,3628 @@
+[
+  {
+    "locale": "en_US",
+    "shortcode": "us",
+    "name": "United States",
+    "baseUrl": "https://www.apple.com",
+    "postalPlaceholder": "90210 or Austin, TX",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "en_CA",
+    "shortcode": "ca",
+    "name": "Canada",
+    "baseUrl": "https://www.apple.com/ca",
+    "postalPlaceholder": "M5G 2C3 or Toronto",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "en_GB",
+    "shortcode": "uk",
+    "name": "United Kingdom",
+    "baseUrl": "https://www.apple.com/uk",
+    "postalPlaceholder": "W1B 2EL or London",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "en_AU",
+    "shortcode": "au",
+    "name": "Australia",
+    "baseUrl": "https://www.apple.com/au",
+    "postalPlaceholder": "2000 or Sydney",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "de_DE",
+    "shortcode": "de",
+    "name": "Germany",
+    "baseUrl": "https://www.apple.com/de",
+    "postalPlaceholder": "10119 or Berlin",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "fr_FR",
+    "shortcode": "fr",
+    "name": "France",
+    "baseUrl": "https://www.apple.com/fr",
+    "postalPlaceholder": "75009 or Paris",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "ja_JP",
+    "shortcode": "jp",
+    "name": "Japan",
+    "baseUrl": "https://www.apple.com/jp",
+    "postalPlaceholder": "104-0061 or Tokyo",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "en_SG",
+    "shortcode": "sg",
+    "name": "Singapore",
+    "baseUrl": "https://www.apple.com/sg",
+    "postalPlaceholder": "238857",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "zh_HK",
+    "shortcode": "hk",
+    "name": "Hong Kong",
+    "baseUrl": "https://www.apple.com/hk-zh",
+    "postalPlaceholder": "Central or Causeway Bay",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "zh_TW",
+    "shortcode": "tw",
+    "name": "Taiwan",
+    "baseUrl": "https://www.apple.com/tw",
+    "postalPlaceholder": "110 or Taipei",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "zh_CN",
+    "shortcode": "cn",
+    "name": "China Mainland",
+    "baseUrl": "https://www.apple.com.cn",
+    "postalPlaceholder": "200001 or Shanghai",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "ko_KR",
+    "shortcode": "kr",
+    "name": "South Korea",
+    "baseUrl": "https://www.apple.com/kr",
+    "postalPlaceholder": "06028 or Seoul",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "es_MX",
+    "shortcode": "mx",
+    "name": "Mexico",
+    "baseUrl": "https://www.apple.com/mx",
+    "postalPlaceholder": "01219 or CDMX",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "pt_BR",
+    "shortcode": "br",
+    "name": "Brazil",
+    "baseUrl": "https://www.apple.com/br",
+    "postalPlaceholder": "04542-000 or São Paulo",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "it_IT",
+    "shortcode": "it",
+    "name": "Italy",
+    "baseUrl": "https://www.apple.com/it",
+    "postalPlaceholder": "20121 or Milan",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "es_ES",
+    "shortcode": "es",
+    "name": "Spain",
+    "baseUrl": "https://www.apple.com/es",
+    "postalPlaceholder": "28013 or Madrid",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "nl_NL",
+    "shortcode": "nl",
+    "name": "Netherlands",
+    "baseUrl": "https://www.apple.com/nl",
+    "postalPlaceholder": "1017 PS or Amsterdam",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "fr_BE",
+    "shortcode": "be-fr",
+    "name": "Belgium",
+    "baseUrl": "https://www.apple.com/be-fr",
+    "postalPlaceholder": "1050 or Brussels",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "de_AT",
+    "shortcode": "at",
+    "name": "Austria",
+    "baseUrl": "https://www.apple.com/at",
+    "postalPlaceholder": "1010 or Vienna",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "fr_CH",
+    "shortcode": "ch-fr",
+    "name": "Switzerland",
+    "baseUrl": "https://www.apple.com/ch-fr",
+    "postalPlaceholder": "8001 or Zurich",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "sv_SE",
+    "shortcode": "se",
+    "name": "Sweden",
+    "baseUrl": "https://www.apple.com/se",
+    "postalPlaceholder": "111 47 or Stockholm",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "en_AE",
+    "shortcode": "ae",
+    "name": "United Arab Emirates",
+    "baseUrl": "https://www.apple.com/ae",
+    "postalPlaceholder": "Dubai",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "en_IN",
+    "shortcode": "in",
+    "name": "India",
+    "baseUrl": "https://www.apple.com/in",
+    "postalPlaceholder": "400051 or Mumbai",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "en_MY",
+    "shortcode": "my",
+    "name": "Malaysia",
+    "baseUrl": "https://www.apple.com/my",
+    "postalPlaceholder": "55188 or Kuala Lumpur",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "th_TH",
+    "shortcode": "th",
+    "name": "Thailand",
+    "baseUrl": "https://www.apple.com/th",
+    "postalPlaceholder": "10330 or Bangkok",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-hermes-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  },
+  {
+    "locale": "tr_TR",
+    "shortcode": "tr",
+    "name": "Turkey",
+    "baseUrl": "https://www.apple.com/tr",
+    "postalPlaceholder": "34340 or Istanbul",
+    "families": [
+      {
+        "category": "iphone",
+        "slug": "iphone-18-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-duo"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17-pro"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-air"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-17e"
+      },
+      {
+        "category": "iphone",
+        "slug": "iphone-16"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-pro"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-air"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad"
+      },
+      {
+        "category": "ipad",
+        "slug": "ipad-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-air"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-pro"
+      },
+      {
+        "category": "mac",
+        "slug": "macbook-neo"
+      },
+      {
+        "category": "mac",
+        "slug": "imac"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-mini"
+      },
+      {
+        "category": "mac",
+        "slug": "mac-studio"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display"
+      },
+      {
+        "category": "mac",
+        "slug": "studio-display-xdr"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-se"
+      },
+      {
+        "category": "watch",
+        "slug": "apple-watch-ultra"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-3"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-pro-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-5"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-4"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max-2"
+      },
+      {
+        "category": "airpods",
+        "slug": "airpods-max"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod"
+      },
+      {
+        "category": "homepod",
+        "slug": "homepod-mini"
+      },
+      {
+        "category": "vision",
+        "slug": "apple-vision-pro"
+      }
+    ]
+  }
+]
