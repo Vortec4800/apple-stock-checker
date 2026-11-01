@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>apple-stock-checker</Name>
-  <Repository>apple-stock-checker:latest</Repository>
+  <Repository>ghcr.io/vortec4800/apple-stock-checker:latest</Repository>
   <Registry/>
   <Network>bridge</Network>
   <MyIP/>
@@ -11,7 +11,7 @@
   <Overview>Self-hosted Apple Retail Store stock and pickup availability monitor with area store counts, live catalog browser across all 7 Apple product families, restock duration history, and instant Pushover alerts.</Overview>
   <Category>Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/Vortec4800/apple-stock-checker/main/unraid-template.xml</TemplateURL>
   <Icon>https://www.apple.com/favicon.ico</Icon>
   <ExtraParams/>
   <PostArgs/>

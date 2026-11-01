@@ -2,6 +2,8 @@
 
 A self-hosted, single-container web application for monitoring Apple Retail Store pickup availability and area store stock counts, built for local LAN deployment on **Unraid / Docker** with **Pushover** notifications.
 
+> **Disclaimer:** This is an unofficial hobby project and is not affiliated with, endorsed by, or sponsored by Apple Inc. Apple and related product names are trademarks of Apple Inc. Use responsibly and at your own risk; automated requests to apple.com may be rate-limited or blocked.
+
 ## Key Capabilities
 
 - **Checks As Often As Safely Allowed:**
