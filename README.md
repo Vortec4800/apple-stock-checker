@@ -7,9 +7,9 @@ A self-hosted, single-container web application for monitoring Apple Retail Stor
 ## Key Capabilities
 
 - **Checks As Often As Safely Allowed:**
-  - Queries Apple's `/shop/retail/pickup-message` endpoint with session cookie warmup (`/shop/bag`).
-  - **Area Location Batching:** Batches up to **8 SKUs** per request using your ZIP/postal code (`location=<zip>`), checking nearby Apple Stores in a single HTTP request (~35–45s cadence without hitting Apple's per-IP burst ceiling).
-  - **Rate-Budget & Cooldown Protection:** Built-in 20-token per-IP token bucket (`TokenBucketPacer`), `Retry-After` header support, and escalating single-probe HTTP 541 edge cooldown (`5m → 10m → 20m → 30m`).
+  - Queries Apple's `/shop/retail/pickup-message` endpoint with session cookie warmup (`/shop/bag`) and proactive session rotation before hitting Apple's 32-request session limit.
+  - **Area Location Batching:** Batches up to **8 SKUs** per request using your ZIP/postal code (`location=<zip>`), checking nearby Apple Stores in a single HTTP request (~120s floor + 15% additive jitter, staying safely below Apple's ~30 req/hr per-IP edge limit).
+  - **Rate-Budget & Cooldown Protection:** Built-in 15-token per-IP token bucket (`TokenBucketPacer`, 120s refill), `Retry-After` header support, and escalating single-probe HTTP 541 edge cooldown (`20m → 30m → 45m → 60m`).
 - **All 7 Apple Product Families + Live Apple.com Refresh:**
   - Pre-seeded catalog generated directly from Apple.com across **iPhone, iPad, Mac (including upgraded memory/SSD retail configs), Apple Watch (with automatic companion band SKU injection), AirPods, HomePod, and Apple Vision Pro**, plus store directories across **26 regions** (defaulting to **United States**).
   - One-click **Refresh Live from Apple** scrapes `/shop/buy-*` pages so new launch-day SKUs appear immediately without rebuilding the container.

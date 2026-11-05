@@ -1,6 +1,9 @@
 import { describe, expect, it } from 'vitest';
 import { AppDatabase } from '../src/server/db.js';
-import { applyCycleObservations } from '../src/server/watcher.js';
+import {
+  applyCycleObservations,
+  computeAdditiveJitterDelayMs,
+} from '../src/server/watcher.js';
 import type { StoreInfo, WatchedProduct } from '../src/shared/types.js';
 
 describe('Watcher Trigger & Restock Duration State Machine', () => {
@@ -176,5 +179,20 @@ describe('Watcher Trigger & Restock Duration State Machine', () => {
     }
 
     db.close();
+  });
+
+  it('uses the configured interval as a strict minimum floor and applies jitter additively only', () => {
+    const baseMs = 120_000; // 120s
+    const jitterPct = 10;   // +0% to +10% (120s to 132s)
+
+    expect(computeAdditiveJitterDelayMs(baseMs, jitterPct, () => 0)).toBe(120_000);
+    expect(computeAdditiveJitterDelayMs(baseMs, jitterPct, () => 0.5)).toBe(126_000);
+    expect(computeAdditiveJitterDelayMs(baseMs, jitterPct, () => 1)).toBe(132_000);
+
+    for (let i = 0; i < 100; i++) {
+      const delay = computeAdditiveJitterDelayMs(baseMs, jitterPct);
+      expect(delay).toBeGreaterThanOrEqual(120_000);
+      expect(delay).toBeLessThanOrEqual(132_000);
+    }
   });
 });

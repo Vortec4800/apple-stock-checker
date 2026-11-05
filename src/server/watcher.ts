@@ -237,6 +237,21 @@ export function applyCycleObservations(params: {
   return notifications;
 }
 
+/**
+ * Applies additive-only timing jitter so `baseIntervalMs` serves as a strict minimum floor
+ * and random jitter only adds `[0, +jitterPercent%]` on top of the floor.
+ */
+export function computeAdditiveJitterDelayMs(
+  baseIntervalMs: number,
+  jitterPercent: number,
+  randomFn: () => number = Math.random
+): number {
+  const floorMs = Math.max(10_000, Math.round(baseIntervalMs));
+  const jitterRatio = Math.max(0, jitterPercent) / 100;
+  const clampedRand = Math.min(1, Math.max(0, randomFn()));
+  return Math.round(floorMs * (1 + clampedRand * jitterRatio));
+}
+
 export class WatcherEngine extends EventEmitter {
   private readonly db: AppDatabase;
   private readonly catalog: CatalogService;
@@ -250,7 +265,7 @@ export class WatcherEngine extends EventEmitter {
   private lastCheckStartedMs: number | null = null;
   private lastCheckFinishedMs: number | null = null;
   private nextCheckAtMs: number | null = null;
-  private effectiveIntervalMs = 35_000;
+  private effectiveIntervalMs = 120_000;
   private consecutiveFailures = 0;
   private lastErrorSummary: string | null = null;
   private lastGlobalAlertSentMs = 0;
@@ -360,7 +375,8 @@ export class WatcherEngine extends EventEmitter {
 
     const health = this.appleClient.getAggregateHealth(now);
     if (health.allCoolingDown && health.cooldownUntilMs !== null) {
-      const wait = Math.max(5_000, health.cooldownUntilMs - now + 1_000);
+      const cooldownJitterMs = 1_000 + Math.round(Math.random() * 4_000);
+      const wait = Math.max(5_000, health.cooldownUntilMs - now + cooldownJitterMs);
       this.effectiveIntervalMs = wait;
       return wait;
     }
@@ -368,16 +384,14 @@ export class WatcherEngine extends EventEmitter {
     let intervalMs = settings.pollIntervalSeconds * 1000;
     if (settings.adaptivePacing && reqCount > 0) {
       const routeCount = Math.max(1, settings.proxies.length || 1);
-      // Sustainable token rate (~1 token per 45s per route), leaving headroom for bursts
-      const sustainableFloorMs = Math.ceil((reqCount / routeCount) * 40_000);
+      // Sustainable token rate (~1 token per 120s per route, staying safely under ~30 req/hr)
+      const sustainableFloorMs = Math.ceil((reqCount / routeCount) * 120_000);
       const tokenWaitMs = this.appleClient.recommendedWaitMsForRequests(reqCount, now);
-      intervalMs = Math.max(intervalMs, Math.min(sustainableFloorMs, 300_000), tokenWaitMs);
+      intervalMs = Math.max(intervalMs, Math.min(sustainableFloorMs, 600_000), tokenWaitMs);
     }
 
     this.effectiveIntervalMs = intervalMs;
-    const jitterRatio = settings.jitterPercent / 100;
-    const factor = 1 + (Math.random() * 2 - 1) * jitterRatio;
-    return Math.max(10_000, Math.round(intervalMs * factor));
+    return computeAdditiveJitterDelayMs(intervalMs, settings.jitterPercent);
   }
 
   private scheduleNext(): void {

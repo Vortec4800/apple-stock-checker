@@ -119,23 +119,23 @@ describe('Apple Retail Pickup Response Parser & Anti-Ban Pacer', () => {
     const tracker = new BlockTracker();
     const t0 = 1_000_000;
 
-    // First 541 -> Level 1 (5 minutes)
+    // First 541 -> Level 1 (20 minutes uninterrupted cooldown)
     const until1 = tracker.recordBlocked(t0);
     expect(tracker.getLevel()).toBe(1);
-    expect(until1 - t0).toBe(5 * 60_000);
+    expect(until1 - t0).toBe(20 * 60_000);
 
     // Concurrent in-flight request failing 200ms later MUST NOT double-escalate level!
     const untilConcurrent = tracker.recordBlocked(t0 + 200);
     expect(tracker.getLevel()).toBe(1);
     expect(untilConcurrent).toBe(until1);
 
-    // After 5m expires, probe runs and fails -> escalates to Level 2 (10 minutes)
+    // After 20m expires, probe runs and fails -> escalates to Level 2 (30 minutes)
     const tProbe = until1 + 1_000;
     expect(tracker.needsRecoveryProbe(tProbe)).toBe(true);
     tracker.beginProbe();
     const until2 = tracker.recordBlocked(tProbe);
     expect(tracker.getLevel()).toBe(2);
-    expect(until2 - tProbe).toBe(10 * 60_000);
+    expect(until2 - tProbe).toBe(30 * 60_000);
 
     // Subsequent successful probe resets level to 0 immediately
     tracker.recordSuccess();

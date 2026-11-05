@@ -340,12 +340,12 @@ export function SettingsView({
               onChange={(e) =>
                 setForm({
                   ...form,
-                  pollIntervalSeconds: Number(e.target.value) || 35,
+                  pollIntervalSeconds: Number(e.target.value) || 120,
                 })
               }
             />
             <p className="field-hint">
-              With Area ZIP batching enabled, up to 8 watched SKUs across all nearby stores take only 1 HTTP request, safely checking every ~35–45 seconds.
+              Minimum seconds between checks. With Area ZIP batching enabled, up to 8 watched SKUs across all nearby stores take only 1 HTTP request, safely checking every ~120–138 seconds without hitting Apple&apos;s ~30 req/hr edge limit.
             </p>
           </div>
 
@@ -384,7 +384,7 @@ export function SettingsView({
 
           <div className="field-group">
             <label htmlFor="jitter-pct" className="field-label">
-              Random Timing Jitter (%)
+              Additive Timing Jitter (%)
             </label>
             <input
               id="jitter-pct"
@@ -397,6 +397,9 @@ export function SettingsView({
                 setForm({ ...form, jitterPercent: Number(e.target.value) || 0 })
               }
             />
+            <p className="field-hint">
+              Adds +0% to +{form.jitterPercent}% on top of the Target Check Floor (never shorter than the floor).
+            </p>
           </div>
         </section>
 
@@ -541,7 +544,7 @@ export function SettingsView({
               onChange={(e) => setProxiesText(e.target.value)}
             />
             <p className="field-hint">
-              Leave blank to use your Unraid server&apos;s direct connection. Each proxy gets its own independent cookie jar and 20-request token bucket.
+              Leave blank to use your Unraid server&apos;s direct connection. Each proxy gets its own independent cookie jar and 15-request token bucket.
             </p>
           </div>
         </section>

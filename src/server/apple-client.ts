@@ -9,13 +9,15 @@ import type {
 } from '../shared/types.js';
 
 export const MAX_PARTS_PER_REQUEST = 8;
+export const MAX_PICKUPS_PER_SESSION = 24;
+export const MAX_SESSION_AGE_MS = 45 * 60_000;
 const MIN_REQUEST_SPACING_MS = 500;
 const REQUEST_TIMEOUT_MS = 18_000;
-const COOLDOWN_LADDER_MS = [
-  5 * 60_000,   // Level 1: 5m
-  10 * 60_000,  // Level 2: 10m
-  20 * 60_000,  // Level 3: 20m
-  30 * 60_000,  // Level 4+: 30m
+export const COOLDOWN_LADDER_MS = [
+  20 * 60_000,  // Level 1: 20m uninterrupted edge penalty recovery
+  30 * 60_000,  // Level 2: 30m
+  45 * 60_000,  // Level 3: 45m
+  60 * 60_000,  // Level 4+: 60m
 ];
 
 const CHROME_UA =
@@ -52,7 +54,7 @@ export class TokenBucketPacer {
   private tokens: number;
   private lastRefillMs: number;
 
-  constructor(capacity = 20, refillEveryMs = 45_000, now = Date.now()) {
+  constructor(capacity = 15, refillEveryMs = 120_000, now = Date.now()) {
     this.capacity = capacity;
     this.refillEveryMs = refillEveryMs;
     this.tokens = capacity;
@@ -470,6 +472,8 @@ interface RouteSession {
   dispatcher?: Dispatcher;
   cookiesByHost: Map<string, Map<string, string>>;
   warmedLocales: Set<string>;
+  sessionStartedAtMs: number;
+  sessionPickupCount: number;
   pacer: TokenBucketPacer;
   blocker: BlockTracker;
   lastRequestAtMs: number;
@@ -511,7 +515,9 @@ export class AppleRetailClient {
           label: 'direct',
           cookiesByHost: new Map(),
           warmedLocales: new Set(),
-          pacer: new TokenBucketPacer(20, 45_000),
+          sessionStartedAtMs: 0,
+          sessionPickupCount: 0,
+          pacer: new TokenBucketPacer(15, 120_000),
           blocker: new BlockTracker(),
           lastRequestAtMs: 0,
         },
@@ -531,7 +537,9 @@ export class AppleRetailClient {
           dispatcher: new ProxyAgent(proxyUrl),
           cookiesByHost: new Map(),
           warmedLocales: new Set(),
-          pacer: new TokenBucketPacer(20, 45_000),
+          sessionStartedAtMs: 0,
+          sessionPickupCount: 0,
+          pacer: new TokenBucketPacer(15, 120_000),
           blocker: new BlockTracker(),
           lastRequestAtMs: 0,
         };
@@ -615,20 +623,28 @@ export class AppleRetailClient {
     if (!setCookies.length) return;
     const jar = route.cookiesByHost.get(url.hostname) ?? new Map<string, string>();
     for (const raw of setCookies) {
-      const firstPair = raw.split(';')[0]?.trim();
+      const parts = raw.split(';').map((p) => p.trim());
+      const firstPair = parts[0];
       if (!firstPair) continue;
       const eq = firstPair.indexOf('=');
       if (eq <= 0) continue;
       const name = firstPair.slice(0, eq).trim();
       const val = firstPair.slice(eq + 1).trim();
-      if (name) jar.set(name, val);
+      if (!name) continue;
+      const isExpired = parts.slice(1).some((attr) => /^max-age\s*=\s*0$/i.test(attr));
+      if (!val || val === '""' || isExpired) {
+        jar.delete(name);
+      } else {
+        jar.set(name, val);
+      }
     }
     route.cookiesByHost.set(url.hostname, jar);
   }
 
   private async enforceMinSpacing(route: RouteSession): Promise<void> {
     const now = Date.now();
-    const wait = route.lastRequestAtMs + MIN_REQUEST_SPACING_MS - now;
+    const additiveJitterMs = Math.round(Math.random() * 450);
+    const wait = route.lastRequestAtMs + MIN_REQUEST_SPACING_MS + additiveJitterMs - now;
     if (wait > 0) {
       await new Promise((resolve) => setTimeout(resolve, wait));
     }
@@ -673,7 +689,21 @@ export class AppleRetailClient {
   }
 
   private async ensureSessionWarm(route: RouteSession, region: RegionInfo): Promise<void> {
-    if (route.warmedLocales.has(region.locale)) return;
+    const now = Date.now();
+    const sessionExpired =
+      route.sessionPickupCount >= MAX_PICKUPS_PER_SESSION ||
+      (route.sessionStartedAtMs > 0 && now - route.sessionStartedAtMs >= MAX_SESSION_AGE_MS);
+
+    if (route.warmedLocales.has(region.locale) && !sessionExpired) return;
+
+    const isRotation = route.warmedLocales.has(region.locale) && sessionExpired;
+    if (isRotation) {
+      route.warmedLocales.delete(region.locale);
+      route.cookiesByHost.clear();
+      route.sessionPickupCount = 0;
+      route.sessionStartedAtMs = 0;
+    }
+
     const bagUrl = new URL(`${region.baseUrl}/shop/bag`);
     await this.enforceMinSpacing(route);
 
@@ -699,6 +729,11 @@ export class AppleRetailClient {
 
       if (resp.status >= 200 && resp.status < 400) {
         route.warmedLocales.add(region.locale);
+        route.sessionStartedAtMs = Date.now();
+        route.sessionPickupCount = 0;
+      } else if (resp.status === 541 || resp.status === 403) {
+        const retryAfterMs = parseRetryAfterMs(resp.headers.get('retry-after'));
+        route.blocker.recordBlocked(Date.now(), retryAfterMs);
       }
       this.logRecorder?.({
         createdAtMs: started,
@@ -708,7 +743,9 @@ export class AppleRetailClient {
         durationMs: Date.now() - started,
         partsCount: 0,
         outcome: resp.status === 541 || resp.status === 403 ? 'blocked_541' : 'ok',
-        detail: `Session cookie warmup (${setCookies.length} cookies set)`,
+        detail: isRotation
+          ? `Proactive session rotation (${setCookies.length} cookies set)`
+          : `Session cookie warmup (${setCookies.length} cookies set)`,
       });
     } catch (err) {
       this.logRecorder?.({
@@ -756,6 +793,23 @@ export class AppleRetailClient {
     }
 
     await this.ensureSessionWarm(route, params.region);
+
+    const postWarmupCooldown = route.blocker.getCooldownUntilMs(Date.now());
+    if (postWarmupCooldown !== null) {
+      const secsLeft = Math.ceil((postWarmupCooldown - Date.now()) / 1000);
+      return {
+        ok: false,
+        stores: [],
+        byStoreAndPart: new Map(),
+        coveredStoreIds: new Set(),
+        envelopeError: {
+          reason: 'blocked',
+          detail: `Warmup blocked by HTTP 541 (${secsLeft}s cooldown)`,
+          outcome: 'blocked_541',
+        },
+      };
+    }
+
     await this.enforceMinSpacing(route);
     route.pacer.forceConsume(1, Date.now());
 
@@ -802,6 +856,7 @@ export class AppleRetailClient {
       const parsed = parsePickupResponse(resp.status, rawText);
 
       if (parsed.ok) {
+        route.sessionPickupCount += 1;
         route.blocker.recordSuccess();
         this.logRecorder?.({
           createdAtMs: started,
@@ -818,6 +873,8 @@ export class AppleRetailClient {
         if (errInfo.outcome === 'blocked_541') {
           route.warmedLocales.delete(params.region.locale);
           route.cookiesByHost.delete(url.hostname);
+          route.sessionPickupCount = 0;
+          route.sessionStartedAtMs = 0;
           route.blocker.recordBlocked(Date.now(), retryAfterMs);
         } else if (errInfo.outcome === 'rate_limited') {
           route.blocker.recordRateLimited(Date.now(), retryAfterMs);
