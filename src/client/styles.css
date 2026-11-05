@@ -502,6 +502,7 @@ dialog::backdrop {
 }
 
 .controls-cluster {
+  flex-basis: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
